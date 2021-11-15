@@ -1,13 +1,13 @@
 # AWS Simple Storage Service (S3)
 
-# What is S3 :
+## What is S3 :
   •	As its named it does the same. It allows you to store objects like images, data, backup, video, audio, etc. in a folder structure.
   •	It’s a cost effective storage solution charges $0.023 per/GB for storage
   •	Provides cheap, reliable, low latency and high throughput access 
   •	You can host a static website in an easy way
   •	It is well integrated with CloudWatch, SNS, SQS and Lambda which enable you to build an event driven application
   •	A bucket name is unique globally 
-# S3 Limitations
+## S3 Limitations :
   o	Number of objects in a bucket : unlimited
   o	Maximum size of an object can be 5TB
   o	Maximum size of an object with 160GB can be uploaded using S3 console
