@@ -8,12 +8,12 @@
 * It is well integrated with CloudWatch, SNS, SQS and Lambda which enable you to build an event driven application.
 * A bucket name is unique globally.
 ## S3 Limitations :
-    o	Number of objects in a bucket : unlimited
-    o	Maximum size of an object can be 5TB
-    o	Maximum size of an object with 160GB can be uploaded using S3 console
-    o	Object size larger than 5Gb and up to 5TB can be uploaded using multipart upload APIs with SDK, REST API and CLI
-    o	Multipart size can vary from 5MB to 5GB and maximum number of parts can be 10,000
-    o	With versioning enabled bucket if you upload an object with the same name then it will create another version instead of replacing the existing object
+* Number of objects in a bucket : unlimited
+* Maximum size of an object can be 5TB
+* Maximum size of an object with 160GB can be uploaded using S3 console
+* Object size larger than 5Gb and up to 5TB can be uploaded using multipart upload APIs with SDK, REST API and CLI
+* Multipart size can vary from 5MB to 5GB and maximum number of parts can be 10,000
+* With versioning enabled bucket if you upload an object with the same name then it will create another version instead of replacing the existing object
 # S3 Storage Classes :
 ## Standard
     o	Default storage type
