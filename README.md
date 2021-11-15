@@ -1,7 +1,5 @@
 # AWS Simple Storage Service (S3)
-. jhjkkk
-. kkllll
-. hhjjj
+
 ## What is S3 :
     •	As its named it does the same. It allows you to store objects like images, data, backup, video, audio, etc. in a folder structure.
     •	It’s a cost effective storage solution charges $0.023 per/GB for storage
