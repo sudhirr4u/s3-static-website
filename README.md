@@ -47,7 +47,7 @@
     o	Durability is 99.999999999
     o	Availability is 99.5
     o	Important to remember that as its store data only in one zone if data lost cant be recovered
-## ntelligent Tiering
+## Intelligent Tiering
     o	Data stored in 3 different zones
     o	No retrieval charge
     o	Monitoring and auto-tiering fees is applied per-object fees
@@ -119,14 +119,12 @@
                   "Action": [
                       "s3:GetObject",
                       "s3:ListBucket",
-              "s3:List*",
-              "s3:PutBucket"
-
+                      "s3:List*",
+                      "s3:PutBucket"
                   ],
                   "Resource": [
                       "arn:aws:s3:::batch2021-bucket/*",
-                 "arn:aws:s3:::batch2021-bucket"
-
+                      "arn:aws:s3:::batch2021-bucket"
                   ]
               }
           ]
